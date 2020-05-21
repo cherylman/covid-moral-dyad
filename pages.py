@@ -14,7 +14,7 @@ class Certainty_1(Page):
 class MyWaitPage_1(WaitPage):
     pass
 class Discussion_1(Page):
-    form_model = 'player'
+    form_model = 'group'
     live_method = "live_slider"
 class Wavelength(Page):
     form_model = 'player'
