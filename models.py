@@ -6,7 +6,7 @@ from otree.api import (
 
 doc = ''
 class Constants(BaseConstants):
-    name_in_url = 'Hand_sanitizer_supermarket_01'
+    name_in_url = 'Resell_hand_sanitizer_02'
     players_per_group = 2
     num_rounds = 1
     my_constant = ()
