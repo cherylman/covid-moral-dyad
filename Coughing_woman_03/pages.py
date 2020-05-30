@@ -5,6 +5,7 @@ from .models import Constants
 
 class Stimuli(Page):
     form_model = 'group'
+    timeout_seconds = 57
 class Judgement_1(Page):
     form_model = 'player'
     form_fields = ['judgement1']
@@ -29,6 +30,7 @@ class MyWaitPage_3(WaitPage):
     pass
 class Stimuli_Rewatch(Page):
     form_model = 'player'
+    timeout_seconds = 57
 class Judgement_3(Page):
     form_model = 'player'
     form_fields = ['judgement3']
